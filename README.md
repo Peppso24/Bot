@@ -1,2 +1,3 @@
-# Bot
-non c'è niente di che, cerca qualcosa altrove
+# Telegram Echo Bot
+
+This is a sample Telegram Bot written in PHP running on Heroku
