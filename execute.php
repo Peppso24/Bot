@@ -23,6 +23,10 @@ if($text== "/start")
 {
   $text="Benvenuto su questo Bot, utilizza i pulsanti in basso";
 }
+if($text=="quokka")
+{
+  $text =" https://www.google.it/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fchocoila%2Fstatus%2F1172166314812694531&psig=AOvVaw0kwZ81UkCg2Kqa1B4TQy9a&ust=1584983687810000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDBh8HKrugCFQAAAAAdAAAAABAJ";
+}
 
 header("Content-Type: application/json");
 $parameters = array('chat_id' => $chatId, "text" => $text);
