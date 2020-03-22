@@ -26,7 +26,7 @@ if($text=="quokka")
 
 if($text=="array")
 {
-  $text = array("inline_keyboard" => array(array(array("text" => "My Button Text", "callback_data" => "myCallbackData"))))
+  $text = array("inline_keyboard" => array(array(array("text" => "My Button Text","callback_data" => "myCallbackData")))
 }
 if($text== "/start")
 {
