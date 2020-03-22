@@ -19,10 +19,7 @@ $text = isset($message['text']) ? $message['text'] : "";
 $text = trim($text);
 $text = strtolower($text);
 
-if($text== "/start")
-{
-  $text="Benvenuto su questo Bot, utilizza i pulsanti in basso";
-}
+
 if($text=="quokka")
 {
   $text ="https://upload.wikimedia.org/wikipedia/commons/8/89/Three-eared_quokka.jpg";
