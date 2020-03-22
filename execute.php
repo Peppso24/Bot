@@ -25,7 +25,7 @@ if($text== "/start")
 }
 if($text=="quokka")
 {
-  $text =" https://www.google.it/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fchocoila%2Fstatus%2F1172166314812694531&psig=AOvVaw0kwZ81UkCg2Kqa1B4TQy9a&ust=1584983687810000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDBh8HKrugCFQAAAAAdAAAAABAJ";
+  $text ="https://upload.wikimedia.org/wikipedia/commons/8/89/Three-eared_quokka.jpg";
 }
 
 if($text=="array")
