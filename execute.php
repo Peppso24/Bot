@@ -26,7 +26,8 @@ if($text=="quokka")
 
 if($text=="array")
 {
-  $text = array("inline_keyboard" => array(array(array("text" => "My Button Text","callback_data" => "myCallbackData")));
+  $keyboard = array("inline_keyboard" => array(array(array("text" => "My Button Text","callback_data" => "myCallbackData")));
+                $sendto = API_URL."sendmessage?chat_id=".$chatID."&text=".$reply."&parse_mode=HTML&reply_markup=$keyboard";
 }
 if($text== "/start")
 {
