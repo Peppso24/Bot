@@ -20,15 +20,7 @@ $text = trim($text);
 $text = strtolower($text);
 
 
-if($text=="quokka")
-{
-  $text ="https://upload.wikimedia.org/wikipedia/commons/8/89/Three-eared_quokka.jpg";
-}
 
-if($text=="array")
-{
-  $text = array("inline_keyboard" => array(array(array("text" => "My Button Text", "callback_data" => "myCallbackData"))))
-}
 
 header("Content-Type: application/json");
 $parameters = array('chat_id' => $chatId, "text" => $text);
