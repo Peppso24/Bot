@@ -19,7 +19,19 @@ $text = isset($message['text']) ? $message['text'] : "";
 $text = trim($text);
 $text = strtolower($text);
 
+if($text=="quokka")
+{
+  $text ="https://upload.wikimedia.org/wikipedia/commons/8/89/Three-eared_quokka.jpg";
+}
 
+if($text=="array")
+{
+  $text = array("inline_keyboard" => array(array(array("text" => "My Button Text", "callback_data" => "myCallbackData"))))
+}
+if($text== "/start")
+{
+  $text="Benvenuto su questo Bot, utilizza i pulsanti in basso";
+}
 
 
 header("Content-Type: application/json");
